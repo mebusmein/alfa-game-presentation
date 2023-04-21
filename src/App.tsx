@@ -182,6 +182,9 @@ function App() {
           title={title}
           codePaneProps={{
             language: "javascript",
+            layout:{
+              overflow: 'auto'
+            }
           }}
         >
           {code}
